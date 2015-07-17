@@ -1,0 +1,305 @@
+<!DOCTYpE html>
+
+<html lang="ru" >
+<head>
+
+ <meta charset="utf-8">
+<meta http-equiv="refresh" content="300" >
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<title>Главное меню</title>
+
+<!-- Стили бутстрапа -->
+<link  rel= "stylesheet" href="css/bootstrap.min.css" />
+
+
+<!-- Мои стили -->
+<link  rel= "stylesheet" href="css/MobiShop.css" />
+
+<!-- Библеотека jquery -->
+<script src="js/jquery.js" ></script>
+
+<!-- Библеотека jquery tmpl -->
+<script src="js/jquery.tmpl.min.js" ></script>
+
+
+<!--  Мои скрипты -->
+<script src="js/app.js" ></script>
+
+<!-- Скрипт для того что бы новые элементы HTML 5 отображались как блочные в устаревших баузерах  -->
+<!--[if lt IE 9]>
+ <script>
+  var e = ("article,aside,figcaption,figure,footer,header,hgroup,nav,section,time").split(',');
+  for (var i = 0; i < e.length; i++) {
+    document.createElement(e[i]);
+  }
+ </script>
+<![endif]-->
+
+</head>
+<body  >
+<section class="all">
+
+<!-- Хедер -->
+<header>
+
+<!-- Блок с рекламными обьявлениями -->
+    <div class="header_advertisement clearfix">
+
+       <!--   Обьявление1   --> 
+          <div 
+          class="advertisement_advertisement-block1
+          
+          text-left" >
+          
+<!--          Изображение1-->
+          <div 
+          class="advertisement-block_icon 
+          ">
+           </div>
+           
+           <h3 class="text-uppercase" > 
+		   бесплатная доставка
+           </h3>
+                    
+            <p  >
+                    при заказе от 
+                    <span class="dark">10000</span>
+                    руб.
+            </p>
+                    
+            <p>
+                    доставка 
+                    осуществляется 
+                    почтой россии в любые регионы РФ
+            </p>
+              
+          </div>
+                  
+          <!--Обьявление2  ------------------>         
+          <div 
+              class="advertisement_advertisement-block2
+             
+              text-left" >
+              <!--          Изображение1-->
+              <div 
+              class="advertisement-block_icon 
+              ">
+              </div>
+              
+                      <h3 class="text-uppercase" >
+                      Позвоните нам</h3>
+                      <p  >
+                      по номеру  
+                      <span class="dark">
+                      +7 (915) 858 39 19
+                      </span>
+                      </p>
+                      <p>
+                      и мы ответим на все ваши вопросы
+                      </p>
+          
+          </div>
+      </div>
+<!-- Конец блока с рекламными обьявлениями.......................................... -->
+
+
+<!-- Вторая строка заголовка............................................... -->
+    <div class="header_sup-row clearfix division-line--box-shadow"> 
+    <!-- блок для логотипа -->        
+      <div class="header_logo  ">
+        
+        <h1 class="text-uppercase " >
+          <strong class="clearfix">
+            <!-- Первая часть логотпа --> 
+            <span class="red ">mobi</span>
+            <!-- Вторая часть логотпа --> 
+            <span class="gray ">shop</span>
+            </strong>
+          </h1>
+        
+        <!-- Текст под логотипом --> 
+        <small class="text-uppercase " >интернет-магазин мобильной электроники</small>
+        
+      </div>
+      <!-- Конец блока для логотипа --> 
+      
+      <!-- блок для кнопок "Поиск", "Вход", "Регистрация" -->     
+      <div class="header_input-block clearfix" >
+        
+        <div class="input-block_entrance-registration ">
+          <span><a href="#">Регистрация</a></span>
+          <span><a href="#">Вход</a></span>
+          </div>
+        
+        <div class="input-block_search input-append ">
+          
+          <input class="span2 pull-left" id="appendedInputButtons" 
+                  size="16" type="search" placeholder="введите поисковой запрос">
+          <button class="btn pull-left text-uppercase"
+                  type="button">поиск</button>
+          
+          
+          </div>
+      </div>
+<!-- Конец блока для кнопок "Поиск", "Вход", "Регистрация" --> 
+
+    </div>
+<!-- Конец Второй строки заголовка --> 
+     
+</header>
+<!-- Конец Хедера --> 
+
+
+
+
+<!--Навигация-->
+<nav class="clearfix">
+
+<!--кнопка переключатель меню-->
+    <div class="top_switch-meni">Меню</div>
+    
+<!--    меню-->
+    <ul class="clearfix text-uppercase hide_meni">
+
+        <li><a href="#">Главная</a></li>    
+        <li><a href="#">блог</a></li>     
+        <li><a href="#">доставка</a></li>   
+        <li><a href="#">оплата</a></li>   
+        <li><a href="#">контакты</a></li>   
+        <li><a href="#">работа у нас</a></li>
+    
+    </ul>
+    
+ <!--   корзина для товаров-->
+    <div class="nav_bakcet  ">
+    
+<!--    Картинка-->
+        <div class="bakcet_icon  pull-left"></div> 
+        
+         <!--Текст--> 
+         <div class="bakcet_text pull-left ">
+        В 
+            <span class="text--color-mark">
+            корзине</span> 
+            
+        2 товара на 27 700</div> 
+    </div
+
+></nav>
+
+          
+<!-- Конец блока навигации --> 
+
+<!--Боковая панель-->
+
+<aside class="text-left" >
+
+    <ul class="text--color-mark" >
+        <li>Мобильные телефоны</li>
+        <li>Бытовая техника
+            <ul >        
+                <li>Пылесосы</li>
+                <li>Миксеры</li>
+            </ul>
+        </li>
+        <li>Фотоаппараты</li>
+    </ul>
+    
+  <h3>  Все бренды:</h3>
+  
+    <ul class="text--color-mark" > 
+        <li> Apple BlackBerry Canon Dyson</li>
+        <li>   Electrolux HTC Nikon Nokia</li>
+        <li>   Samsung Sony Ericsson Zelmer</li>
+    </ul>
+    
+    <h3> Валюта:</h3>
+    
+    <p>рубли 
+        <span class="text--color-mark">доллары евро</span>
+    </p>
+    
+    <h3> Вы смотрели:</h3>
+    
+    <h3> Новые записи 
+        <span class="text--color-mark">
+    блога</span></h3>
+    
+    <p>
+        <datalist>23.09.2011</datalist>
+        <span class="text--color-mark">Открытие магазина</span>
+     </p>
+
+</aside>
+<!-- Конец Боковой панели .............................. -->
+
+
+
+
+<!--Главная панель.............................. -->
+<section class="maincontent text-left ">
+
+    <h2  >О магазине</h2>
+    
+    <p>Этот магазин является демонстрацией скрипта
+    интернет-магазина Simpla. Все материалы на этом 
+    сайте присутствуют исключительно в демострационных целях.</p>
+    
+    <h2>Рекомендуемые товары</h2>
+    
+    
+    
+<!--    Список товаров.............................. -->
+    
+    <ul class="wares clearfix js-RecomendationWares">
+    
+    </ul>
+
+<!--Конец списка "Рекомендуемые товары"....................................................-->
+
+    <h2>Новинки</h2>
+
+
+
+
+<!--Начало списка "Новинки"....................................................-->
+    <ul class="wares clearfix js-NewWares">
+    
+
+  </ul>        
+<!--Конец списка "Новинки"....................................................-->
+
+
+
+    <h2>Акционные товары</h2>
+    
+<!--Начало списка "Акционные товары"....................................................-->
+    <ul class="wares clearfix js-ActionWares">
+    
+
+  </ul>        
+<!--Конец списка "Акционные товары".......................................................-->    
+
+
+
+</section>
+
+<!--Конец Главной панели.......................................................-->
+
+<!--Футер.......................................................-->
+<footer class="text-left clearfix">
+  <div class="footer_text pull-left" >
+      <p >Авторские права и прочая фигня.
+        Никаких прав, собственно, нет, т.к. я буду юзать нуленую версию SimplaCMS.</p>
+      <p >© MobiShop 2012. Все права защищены.</p>
+  </div>
+  
+  <div class="footer_btn " ></div>
+   <div class="footer_btn " ></div>
+  
+</footer>
+</section>
+</body>
+</html>
